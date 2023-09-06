@@ -1,0 +1,144 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+
+.div {
+    width: 65%;
+    margin-top: -8%
+}
+
+.rounded-box {
+    width: 100%;
+    height: 100%;
+    border: 30px solid black;
+    border-radius: 20px;
+    box-sizing: border-box;
+    background-color: lightskyblue;
+    background-image: url('../assets/img/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #fff;
+    padding: 20px;
+}
+
+/* Style the logo image */
+.logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    margin-left: 3.5%;
+}
+
+/* Style the logo text */
+.logo-text {
+    width: 20%;
+    font-size: 18px;
+    /* Adjust the font size as needed */
+    font-weight: bold;
+    /* Adjust the font weight as needed */
+    color: white;
+    /* Text color */
+    display: flex;
+    align-items: center;
+    margin-left: 1%;
+}
+
+
+.settings-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: #f0f0f0;
+    /* Background color of the container */
+}
+
+/* Style the icon */
+.settings-icon i {
+    font-size: 24px;
+    /* Adjust the icon size as needed */
+    color: white;
+    /* Icon color */
+}
+
+.fas.fa-bars {
+    font-size: 24px;
+    /* Adjust the size as needed */
+    color: white;
+    /* Change the color as needed */
+    margin-left: 64%;
+    /* Add margins as needed */
+}
+
+/* Create a container to center the box vertically */
+.container {
+    display: flex;
+    align-items: center;
+    /* Center vertically */
+    height: 100%;
+    /* Make the container take up the full height of the viewport */
+    margin-top: -2%;
+}
+
+
+.center-text {
+    width: 80%;
+    font-size: 75px;
+    font-weight: bold;
+    /* Optional font weight */
+    color: white;
+    /* Text color */
+    justify-content: center;
+    align-items: center;
+    margin-left: 6%;
+}
+
+.center-text1 {
+    width: 40%;
+    text-align: left;
+    font-size: 25px;
+    /* Adjust the font size as needed */
+    color: white;
+    /* Text color */
+    justify-content: center;
+    align-items: center;
+    margin-left: 6%;
+}
+
+.rounded-box1 {
+    width: 600px;
+    height: 600px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    /* Adjust the border radius as needed for roundness */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    /* Optional shadow for the box */
+    margin-left: -7%;
+}
+
+.capsule-button {
+    background-color: rgb(126, 0, 126);
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    /* Adjust the border-radius to control the capsule shape */
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: background-color 0.3s ease;
+    /* Add a hover effect */
+    margin-left: 6%;
+}
+
+.capsule-button:hover {
+    background-color: blue;
+    /* Change the background color on hover */
+}
+
